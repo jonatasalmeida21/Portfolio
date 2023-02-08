@@ -1,0 +1,147 @@
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+  }
+
+  body {
+    background-color: var(--body-bg-color);
+    font-family: 'Merriweather Sans', sans-serif;
+    max-width: 500px;
+    
+  }
+
+  .header__cabecalho {
+    background-color:  var(--bg-cards);
+    color: var(--text-color);
+    display: flex; 
+    text-align: center;
+    align-items: center;
+    max-width: 500px;
+    border-radius: 10px;
+    margin: 5px;
+    padding: auto;
+  }
+
+  img {
+    display: flex;
+    border: 2px solid green;
+    height: 130px;
+    width: 150px;
+    border-radius: 100%;
+    align-items: center;
+    margin: 5px;
+    
+  }
+
+  .perfil {
+  display: flex;
+  flex-direction: column;
+  display: block;
+  padding: auto;
+  margin: 10px
+  }
+
+  .section__informacoes {
+    display: flex;
+    display: flexbox;
+   
+  }
+  .informacoes {
+    background-color: var(--bg-cards);
+    padding: auto;
+    margin: 2px;
+   display: flex;
+   flex-direction: column;
+   border-radius: 10px;
+   width: 50%;
+  }
+
+  a,i {
+    text-decoration: none;
+    padding: 5px;
+    color: var(--text-color)
+    
+  }
+
+  .tecnologias {
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+    display: flex;
+    margin: 10px;
+    margin-top: 3px;
+    flex-direction: column;
+    align-items: center;
+    padding: auto;
+    margin: 2px;
+    border-radius: 10px;
+    width: 50%;
+    max-width: 500px;
+    
+  }
+
+
+  .tec {
+    display: flex;
+    display: flow-root;
+    background-color: var(--text-color);
+    color: var(--bg-cards);
+    border-radius: 50px;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .a1 {
+    display: flex;
+    flex-direction: row;
+    color: var(--body-bg-color);
+    padding: 3px;
+  }
+  .a2 {
+    display: flex;
+    flex-direction: row;
+    color: var(--body-bg-color);
+    padding: 3px;
+  }
+
+  .projetos {
+    background-color: var(--bg-cards);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    height: 30px;
+    max-width: 500px;  
+  }
+
+  .link:hover {
+    box-shadow:
+    1px 1px var(--text-color),
+    2px 2px var(--text-color),
+    3px 3px var(--text-color);
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+  }
+
+  p {
+    background-color: var(--bg-cards);
+    color: var(--text-color);
+  }
+
+  .sobre-me {
+    background-color: var(--bg-cards);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    max-width: 500px;
+    color: var(--text-color);
+  }
+
+  .objetivo {
+    background-color: var(--bg-cards);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+    max-width: 500px;
+    color: var(--text-color);
+  }
